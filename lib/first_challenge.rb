@@ -19,7 +19,7 @@ def first_challenge
       if attribute == :favorite_icecream_flavors
       data.delete_if == "strawberry"
         
-      end
+      
     end
     end
   end
