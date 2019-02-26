@@ -17,9 +17,9 @@ def first_challenge
   contacts.each do |key, value|
     value.each do |attribute, data|
       if attribute == :favorite_icecream_flavors
-      data.delete_if == "strawberry"
-        
-      
+      data.delete_if do |flavor|
+        flavor == "strawberry"
+      end
     end
     end
   end
